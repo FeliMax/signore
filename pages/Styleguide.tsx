@@ -7,11 +7,11 @@ const Styleguide = () => {
             <h4>Headline 4</h4>
             <h5>Headline 5</h5>
             <h6>Headline 6</h6>
-            <p>Paragraph</p>
+            <p>This is a paragraph</p>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>list element 1</li>
+                <li>list element 2</li>
+                <li>list element 3</li>
             </ul>
         </>
     )

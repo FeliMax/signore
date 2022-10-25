@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+
+
 module.exports = {
     content: [
         './pages/**/*.{js,ts,jsx,tsx}',
@@ -12,7 +14,7 @@ module.exports = {
             xl: '1440px',
         },
 
-        fontSize:{
+        fontSize: {
             '2xs': '0.60rem',
             'xs': '0.70rem',
             '3sm': '0.80rem',
@@ -25,21 +27,20 @@ module.exports = {
             'xl': '2.5rem',
             '2xl': '3rem',
             '3xl': '4rem',
-
-        },
-
-        fontFamily: {
-            'montserrat': ['Montserrat', 'sans-serif']
-        },
-
-        colors: {
-            transparent: 'transparent',
-            current: 'currentColor',
-
-
         },
 
         extend: {
+            fontFamily: {
+                'montserrat': ['Montserrat', 'sans-serif']
+            },
+
+            colors: {
+                transparent: 'transparent',
+                current: 'currentColor',
+                'primary': '#355874',
+                'secondary': '#123654',
+            },
+
             spacing: {
                 'small': '32rem',
                 'medium': '50rem',
