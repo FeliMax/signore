@@ -47,9 +47,9 @@ export const AboutMe = () => {
 
                     </div>
 
-                    <div className=" lg:block relative self-center after:hidden lg:after:content-[''] after:ml-6 after:top-4 after:-mr-6 after:-mb-6 after-w-full after:inset-0 after:absolute after:border-4 after:border-white ">
+                    <div className=" lg:block relative self-center after:hidden lg:after:block lg:after:content-[''] after:ml-6 after:top-4 after:-mr-6 after:-mb-6 after-w-full after:inset-0 after:absolute after:border-4 after:border-white ">
 
-                    <Image className="object-cover h-36 w-36 z-20 relative  hover:scale-110 hover:transition" src={Me}  alt="Profile"/>
+                    <Image className="object-cover z-20 relative hover:scale-110 hover:transition duration-300 delay-100" src={Me}  alt="Profile"/>
                     </div>
                 </div>
 
