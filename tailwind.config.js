@@ -22,7 +22,7 @@ module.exports = {
             width: {
                 'small': '32rem',
                 'medium': '50rem',
-                'large': '72rem',
+                'large': '52rem',
             },
         },
     },

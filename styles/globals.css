@@ -74,11 +74,11 @@
     }
 
     ul {
-        @apply text-sm md:text-base font-normal list-disc;
+        @apply text-sm md:text-base font-normal;
     }
 
     .container {
-        @apply mx-auto w-large px-2
+        @apply mx-auto !max-w-3xl px-2
     }
 }
 

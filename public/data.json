@@ -1,0 +1,18 @@
+{
+  "logo": "LOGO",
+
+  "navbarItems": [
+    {
+      "text": "About me"
+    },
+    {
+      "text": "Projects"
+    },
+    {
+      "icon": "github"
+    },
+    {
+      "icon": "linkedin"
+    }
+  ]
+}
