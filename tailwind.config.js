@@ -15,11 +15,11 @@ module.exports = {
             colors: {
                 transparent: 'transparent',
                 current: 'currentColor',
-                'primary': '#355874',
+                'primary': '#247bbe',
                 'secondary': '#123654',
             },
 
-            width: {
+            maxWidth: {
                 'small': '32rem',
                 'medium': '50rem',
                 'large': '72rem',
