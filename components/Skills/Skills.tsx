@@ -14,9 +14,9 @@ export const Skills = () => {
                         browser.</p>
                     <h6 className="text-portfolio-blue mb-2">Languages I speak:</h6>
                     <p className="mb-6">HTML, CSS, Sass, Javascript/Typescript, Python, C++, Dart</p>
-                    <h6 className="text-portfolio-blue mb-2">Languages I speak:</h6>
+                    <h6 className="text-portfolio-blue mb-2">Tech Tools</h6>
                     <p className="mb-6">HTML, CSS, Sass, Javascript/Typescript, Python, C++, Dart</p>
-                    <h6 className="text-portfolio-blue mb-2">Languages I speak:</h6>
+                    <h6 className="text-portfolio-blue mb-2">Design Tools</h6>
                     <p className="mb-6">HTML, CSS, Sass, Javascript/Typescript, Python, C++, Dart</p>
                 </div>
 

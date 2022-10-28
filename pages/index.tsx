@@ -5,6 +5,7 @@ import {AboutMe} from '../components/About me/About me';
 import {Skills} from '../components/Skills/Skills';
 import {Projects} from '../components/Projects/Projects';
 import {Footer} from '../components/Footer/Footer';
+import {ProjectCard} from '../components/ProjectCard/ProjectCard';
 
 const Home: NextPage = () => {
     return (

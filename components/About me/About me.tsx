@@ -6,7 +6,7 @@ export const AboutMe = () => {
         <>
         <section className="pb-40 xl:pb-56 pt-12 lg:pt-24 bg-secondary">
             <div className="container">
-                <h2 className="text-white mb-4 lg:mb-12">About me</h2>
+                <h2 className="text-white mb-4 lg:mb-12">About me (ManIcon)</h2>
                 <div className="flex flex-col lg:flex-row lg:justify-between ">
                     <div className="lg:w-1/2  text-white mb-8 lg:mb-0">
                         <h5 className="mb-4">Who am I</h5>

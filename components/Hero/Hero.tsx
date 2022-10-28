@@ -8,9 +8,9 @@ export const Hero = () => {
             <div className="container flex flex-col items-center text-primary pt-44 ">
                 <h1 className="mb-4">Hi, I'm Maximilian</h1>
                 <h5 className="mb-8">welcome to my website</h5>
-                <Image className={'rounded-full'} src={Me} width={200} height={200} alt="Profile"/>
+                <Image className={' bg-red-200'} src={Me}  alt="Profile"/>
 
-                <h4>Revolver</h4>
+                <h4 className="mt-12">Revolver snf above some Icons to Github or linkedin </h4>
             </div>
         </section>
     )
