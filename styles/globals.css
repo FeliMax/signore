@@ -78,7 +78,7 @@
     }
 
     .container {
-        @apply mx-auto !max-w-large px-2
+        @apply !max-w-large mx-auto px-4
     }
 }
 

@@ -15,8 +15,8 @@ module.exports = {
             colors: {
                 transparent: 'transparent',
                 current: 'currentColor',
-                'primary': '#355874',
-                'secondary': '#123654',
+                'primary': '#6d96b0',
+                'secondary': '#447db6',
             },
 
             maxWidth: {
