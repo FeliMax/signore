@@ -74,7 +74,7 @@
     }
 
     ul {
-        @apply text-sm md:text-base font-normal list-disc;
+        @apply text-sm md:text-base font-normal;
     }
 
     .container {

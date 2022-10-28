@@ -22,7 +22,7 @@ module.exports = {
             maxWidth: {
                 'small': '32rem',
                 'medium': '50rem',
-                'large': '72rem',
+                'large': '70rem',
             },
         },
     },
