@@ -19,10 +19,10 @@ module.exports = {
                 'secondary': '#123654',
             },
 
-            width: {
+            maxWidth: {
                 'small': '32rem',
                 'medium': '50rem',
-                'large': '52rem',
+                'large': '70rem',
             },
         },
     },
