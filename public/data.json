@@ -3,16 +3,12 @@
 
   "navbarItems": [
     {
-      "text": "About me"
+      "text": "About me",
+      "icon": "person"
     },
     {
-      "text": "Projects"
-    },
-    {
-      "icon": "github"
-    },
-    {
-      "icon": "linkedin"
+      "text": "Projects",
+      "icon": "code"
     }
   ]
 }

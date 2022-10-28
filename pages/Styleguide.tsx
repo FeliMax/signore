@@ -4,7 +4,6 @@ import data from '../public/data.json';
 const Styleguide = () => {
     return (
         <>
-            <Header headerData={data}/>
             <div className="container">
                 <h1>Headline 1</h1>
                 <h2>Headline 2</h2>
