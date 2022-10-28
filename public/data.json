@@ -1,0 +1,14 @@
+{
+  "logo": "LOGO",
+
+  "navbarItems": [
+    {
+      "text": "About me",
+      "icon": "person"
+    },
+    {
+      "text": "Projects",
+      "icon": "code"
+    }
+  ]
+}
