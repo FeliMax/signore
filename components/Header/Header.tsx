@@ -19,7 +19,7 @@ interface Data {
 
 export const Header = ({headerData}: Data) => {
     return (
-        <header className="fixed w-full h-fit px-2 py-4 my-auto shadow-md">
+        <header className="fixed w-full h-fit px-2 py-4 bg-white shadow-md z-20">
             <nav className=" container flex justify-between items-center gap-12 text-gray-500">
                 <div className="">
                     <Image src={Logo} width={100} height={50}/>
