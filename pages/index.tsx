@@ -1,7 +1,6 @@
 import type {NextPage} from 'next'
 import Head from 'next/head'
 import {Header} from '../components/Header/Header';
-import data from '../public/data.json';
 import {Hero} from '../components/Hero/Hero';
 import {AboutMe} from '../components/About me/About me';
 import {Skills} from '../components/Skills/Skills';
@@ -17,7 +16,7 @@ const Home: NextPage = () => {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
-            <Header headerData={data}/>
+            <Header />
 
             <main>
                 <Hero/>
