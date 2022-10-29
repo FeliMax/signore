@@ -13,7 +13,7 @@ export const AboutMe = () => {
                 <h2 className="text-white mb-4 lg:mb-12">About me (ManIcon)</h2>
                 <div className="flex flex-col lg:flex-row lg:justify-between ">
                     <div className="lg:w-1/2  text-white mb-8 lg:mb-0">
-                        <ReactMarkdown>{content}</ReactMarkdown>
+                        <ReactMarkdown className="space-y-6">{content}</ReactMarkdown>
                     </div>
 
                     <div className=" lg:block relative self-center after:hidden lg:after:block lg:after:content-[''] after:ml-6 after:top-4 after:-mr-6 after:-mb-6 after-w-full after:inset-0 after:absolute after:border-4 after:border-white ">
