@@ -1,14 +1,15 @@
 {
   "logo": "LOGO",
-
-  "navbarItems": [
+  "items": [
     {
       "text": "About me",
-      "icon": "person"
+      "icon": "person",
+      "url": "#about"
     },
     {
       "text": "Projects",
-      "icon": "code"
+      "icon": "code",
+      "url": "#projects"
     }
   ]
 }
