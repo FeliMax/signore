@@ -1,0 +1,28 @@
+[
+    {
+        "name": "This Webpage",
+        "description": "This webpage has been built using nextjs and react.",
+        "year": 2022,
+        "type": "Webpage",
+        "references": [
+            {
+                "icon": "fa-brands fa-github",
+                "url": "https://github.com/Maxwell929/signore",
+                "tooltip": "Show on Github"
+            }
+        ]
+    },
+    {
+        "name": "Project XYZ",
+        "description": "This is the description of project XYZ.",
+        "year": 2022,
+        "type": "Blabla",
+        "references": [
+            {
+                "icon": "fa-solid fa-globe",
+                "url": "https://example.com",
+                "tooltip": "Show web page"
+            }
+        ]
+    }
+]
