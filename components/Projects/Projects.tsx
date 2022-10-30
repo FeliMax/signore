@@ -1,8 +1,9 @@
 import {ProjectCard} from '../ProjectCard/ProjectCard';
 import content from '../../public/content/projects.json';
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 export interface IconReference {
-    icon: string;
+    icon: IconProp;
     url: string;
     tooltip: string;
 }

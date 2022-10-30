@@ -10,8 +10,8 @@ export const ProjectCard = ({name, description, year, type, references}: Project
             className="relative bg-white overflow-hidden flex flex-col items-center gap-6 min-h-[20rem] w-[18rem] rounded-lg p-4 hover:-translate-y-4 duration-300">
             <div className="absolute top-0 right-0 z-10 p-1">
                 {references?.map((reference: IconReference) => (
-                    <a key={reference.url} href={reference.url}>
-                        <FontAwesomeIcon icon={reference.icon}/>
+                    <a key={reference.url} href={reference.url} target="_blank" rel="noreferrer">
+                        <FontAwesomeIcon className="w-6 h-6 hover:scale-105" icon={reference.icon}/>
                     </a>
                 ))}
             </div>
