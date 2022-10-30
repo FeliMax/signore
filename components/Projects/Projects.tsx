@@ -16,10 +16,7 @@ export interface ProjectContent {
 }
 
 export const Projects = () => {
-    const projects = content as ProjectContent[];
-
-    console.log("read projects", projects);
-    
+    const projects = content as ProjectContent[];    
 
     return (
         <section className="bg-primary py-24">
