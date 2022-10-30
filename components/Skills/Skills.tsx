@@ -1,3 +1,5 @@
+import {Icon} from '../Icon/Icon';
+
 export const Skills = () => {
     return (
 
@@ -7,7 +9,7 @@ export const Skills = () => {
 
                 <div className="flex flex-col items-center flex-1 text-center">
                     <div className="bg-primary p-4 rounded-full mb-8">
-                        abv
+                        <Icon iconName="terminal" className="text-white w-6 h-6"/>
                     </div>
                     <h4 className="mb-4 text-portfolio-blue-dark">Programming</h4>
                     <p className="mb-6">I like to code things from scratch, and enjoy bringing ideas to life in the
@@ -22,7 +24,7 @@ export const Skills = () => {
 
                 <div className="flex flex-col items-center text-center flex-1">
                     <div className="bg-primary p-4 rounded-full mb-8">
-                        abv
+                        <Icon iconName="book" className="text-white w-6 h-6"/>
                     </div>
                     <h4 className="mb-4 text-portfolio-blue-dark">Interrests</h4>
                     <p className="mb-6">Beside coding and all the interesting IT topics I like to stay outside</p>
