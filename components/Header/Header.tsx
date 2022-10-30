@@ -6,7 +6,7 @@ import content from '../../public/content/header.json';
 
 interface NavbarItem {
     text?: string;
-    icon?: string;
+    icon?: IconProp;
     url?: string;
 }
 

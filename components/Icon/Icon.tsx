@@ -3,7 +3,7 @@ import {IconProp} from '@fortawesome/fontawesome-svg-core'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 export interface iconProps {
-    iconName: IconProp | string;
+    iconName: IconProp;
     className?: string;
     url?: string;
 }
