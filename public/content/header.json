@@ -4,12 +4,12 @@
     {
       "text": "About me",
       "icon": "fa-solid fa-person",
-      "url": "#about"
+      "url": "about"
     },
     {
       "text": "Projects",
       "icon": "fa-solid fa-code",
-      "url": "#projects"
+      "url": "projects"
     }
   ]
 }
