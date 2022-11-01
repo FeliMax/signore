@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Logo from '/assets/logo.svg'
 import NextLogo from '/assets/next-logo.png'
 import {IconList} from '../IconList/IconList';
+import SmoothScrollLink from '../SmoothScrollLink';
 
 // example data
 
@@ -22,7 +23,9 @@ export const Footer = () => {
     return (
         <section className="py-8">
             <div className="container flex flex-col items-center ">
-                <Image alt="Logo" className="" height={50} width={110} src={Logo}/>
+                <SmoothScrollLink to="/" className="hover:cursor-pointer">
+                    <Image alt="Logo" className="" height={50} width={110} src={Logo}/>
+                </SmoothScrollLink>
                 <IconList icons={icons} className="gap-8 text-gray-500 py-6"/>
                 <p className="text-sm">{`${new Date().getFullYear()} Made by Maximilian Stelzl and Felix Wielander`}</p>
                 <div className="flex items-center gap-2">
