@@ -2,13 +2,13 @@ import React from 'react';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-export interface iconProps {
-    iconName: IconProp;
+export interface IconProps {
+    iconName: string;
     className?: string;
     url?: string;
 }
 
-export const Icon = ({ iconName, className, url }: iconProps) => {
+const Icon = ({ iconName, className, url }: IconProps) => {
     return (
         <a
             className={url === undefined ? 'pointer-events-none' : ''}
@@ -16,7 +16,12 @@ export const Icon = ({ iconName, className, url }: iconProps) => {
             target={url === undefined ? '' : '_blank'}
             rel="noreferrer"
         >
-            <FontAwesomeIcon className={className} icon={iconName} />
+            <FontAwesomeIcon
+                className={className}
+                icon={iconName as IconProp}
+            />
         </a>
     );
 };
+
+export default Icon;

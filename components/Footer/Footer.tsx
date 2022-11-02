@@ -3,11 +3,11 @@ import NextLogo from 'assets/next-logo.png';
 import { IconList } from '../IconList/IconList';
 import SmoothScrollLink from '../SmoothScrollLink';
 import { Logo } from '../Logo/Logo';
-import { iconProps } from '../Icon/Icon';
+import { IconProps } from '../Icon/Icon';
 
 // example data
 
-const icons: iconProps[] = [
+const icons: IconProps[] = [
     {
         iconName: 'fab fa-github',
         url: 'github.com',
