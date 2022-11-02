@@ -1,5 +1,5 @@
 import { Icon } from '../Icon/Icon';
-import Logo from '/assets/logo.svg';
+import Logo from 'assets/logo.svg';
 import Image from 'next/image';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import content from '../../public/content/header.json';

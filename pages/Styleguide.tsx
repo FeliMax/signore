@@ -1,6 +1,3 @@
-import { Header } from '../components/Header/Header';
-import data from '../public/data.json';
-
 const Styleguide = () => {
     return (
         <>
