@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import NextLogo from '/assets/next-logo.png';
+import NextLogo from 'assets/next-logo.png';
 import { IconList } from '../IconList/IconList';
 import SmoothScrollLink from '../SmoothScrollLink';
 import { Logo } from '../Logo/Logo';

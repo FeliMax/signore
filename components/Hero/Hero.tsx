@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Me from '/assets/avatar.svg';
+import Me from 'assets/avatar.svg';
 import content from '../../public/content/hero.json';
 
 interface HeroContent {
