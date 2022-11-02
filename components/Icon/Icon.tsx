@@ -10,7 +10,8 @@ export interface iconProps {
 
 export const Icon = ({iconName, className, url}: iconProps) => {
     return (
-        <a className={!url ? 'pointer-events-none' : 'hover:opacity-75'} href={`https://${url}/`} target="_blank" rel="noreferrer">
+        <a className={!url ? 'pointer-events-none' : ''} href={!url ? 'javascript:void(0);' : `https://${url}`}
+           target={!url ? '' : '_blank'} rel="noreferrer">
             <FontAwesomeIcon className={className} icon={iconName}/>
         </a>
     )

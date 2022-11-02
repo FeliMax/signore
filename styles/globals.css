@@ -45,6 +45,10 @@
         @apply font-montserrat
     }
 
+    .prose{
+       @apply !max-w-[100%]
+    }
+
     h1 {
         @apply text-5xl md:text-6xl font-extrabold;
     }
@@ -53,7 +57,7 @@
         @apply text-4xl md:text-5xl font-bold;
     }
 
-    h3 {
+    h3, .h3 {
         @apply text-3xl md:text-4xl font-bold;
     }
 
@@ -61,16 +65,24 @@
         @apply text-2xl md:text-3xl font-bold;
     }
 
-    h5 {
+    h5, .prose h5  {
         @apply text-xl md:text-2xl font-bold;
+    }
+
+    .prose h5{
+        @apply mb-1
     }
 
     h6 {
         @apply text-base md:text-lg font-bold;
     }
 
-    p {
-        @apply text-sm md:text-base font-normal;
+    p, .prose p {
+        @apply text-base md:text-base font-normal mt-0;
+    }
+
+    .prose p {
+        @apply  space-y-4
     }
 
     ul {
