@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
-import { IconReference, ProjectContent } from '../Projects/Projects';
+import { IconReference, ProjectContent } from '../sections/Projects';
 import Me from 'assets/avatar.svg';
 
 export const ProjectCard = ({

@@ -1,11 +1,11 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import { Header } from '../components/Header/Header';
-import { Hero } from '../components/Hero/Hero';
-import { AboutMe } from '../components/About me/About me';
-import { Skills } from '../components/Skills/Skills';
-import { Projects } from '../components/Projects/Projects';
-import { Footer } from '../components/Footer/Footer';
+import { Header } from '../components/sections/Header';
+import { Hero } from '../components/sections/Hero';
+import { AboutMe } from '../components/sections/AboutMe';
+import { Skills } from '../components/sections/Skills';
+import { Projects } from '../components/sections/Projects';
+import { Footer } from '../components/sections/Footer';
 
 const Home: NextPage = () => {
     return (
