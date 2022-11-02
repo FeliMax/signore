@@ -9,6 +9,11 @@
                 "icon": "fa-brands fa-github",
                 "url": "https://github.com/Maxwell929/signore",
                 "tooltip": "Show on Github"
+            },
+            {
+                "icon": "fa-brands fa-github",
+                "url": "https://github.com/Maxwell929/signore",
+                "tooltip": "Show on Github"
             }
         ]
     },
@@ -16,7 +21,20 @@
         "name": "Project XYZ",
         "description": "This is the description of project XYZ.",
         "year": 2022,
-        "type": "Blabla",
+        "type": "Flutter Project",
+        "references": [
+            {
+                "icon": "fa-solid fa-globe",
+                "url": "https://example.com",
+                "tooltip": "Show web page"
+            }
+        ]
+    },
+    {
+        "name": "Project XYZ",
+        "description": "This is the description of project XYZ.",
+        "year": 2022,
+        "type": "xy",
         "references": [
             {
                 "icon": "fa-solid fa-globe",

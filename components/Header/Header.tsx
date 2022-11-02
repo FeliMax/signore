@@ -1,10 +1,11 @@
 import {Icon} from '../Icon/Icon';
 import Logo from '/assets/logo.svg'
 import Image from 'next/image';
-import { IconProp } from '@fortawesome/fontawesome-svg-core';
+import {IconProp} from '@fortawesome/fontawesome-svg-core';
 import content from '../../public/content/header.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import SmoothScrollLink from '../SmoothScrollLink';
+import {useState} from 'react';
 
 interface NavbarItem {
     text?: string;
@@ -19,6 +20,11 @@ interface HeaderContent {
 
 export const Header = () => {
     const headerContent = content as HeaderContent;
+    const [open, setOpen] = useState<boolean>(false);
+
+    const setIsOpen = ():void => {
+         setOpen(prevState => !prevState)
+    }
 
     return (
         <header className="fixed w-full h-fit px-2 py-4 bg-white shadow-md z-20">
@@ -26,7 +32,7 @@ export const Header = () => {
                 <SmoothScrollLink to="/" className="hover:cursor-pointer">
                     <Image src={Logo} width={100} height={50} alt="logo" />
                 </SmoothScrollLink>
-                <ul className="flex items-center gap-12 font-bold">
+                <ul className={'md:flex md:flex-row font-bold ' + (open ? 'absolute top-full flex flex-col gap-8 items-start px-8 pt-12 bg-white inset-0 h-screen pointer-events-none' : 'hidden md:gap-12 font-bold')}>
                     {headerContent.items.map(item => {
                         return (
                             <li className="group flex items-center gap-2 text-xl hover:text-secondary cursor-pointer duration-100" key={item.text}>
@@ -38,9 +44,9 @@ export const Header = () => {
                         )
                     })}
                 </ul>
-                <div className="block md:hidden">
-                    <Icon className="w-8 h-8 " iconName="bars"/>
-                </div>
+                <button  className="block md:hidden" onClick={setIsOpen}>
+                    <Icon className={'w-8 h-8'} iconName={!open ? 'bars' : 'x'}/>
+                </button>
             </nav>
         </header>
     )

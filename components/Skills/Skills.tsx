@@ -4,8 +4,8 @@ export const Skills = () => {
     return (
 
 
-        <section className="mb-24">
-            <div className="container px-6 flex justify-between flex-wrap gap-48 w-full -mt-36 py-16 px-12 bg-white text-gray-700 rounded-2xl shadow border-[1px]">
+        <section className="mb-24 mx-4">
+            <div className="container px-6 flex justify-between flex-wrap gap-48 w-full -mt-36 py-16 px-12 bg-white text-gray-800 rounded-2xl shadow ">
 
                 <div className="flex flex-col items-center flex-1 text-center">
                     <div className="bg-primary p-4 rounded-full mb-8">
