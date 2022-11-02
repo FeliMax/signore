@@ -1,5 +1,5 @@
-import { FC } from "react";
-import { Link } from "react-scroll";
+import { FC } from 'react';
+import { Link } from 'react-scroll';
 
 interface Props {
     to: string;
@@ -12,7 +12,7 @@ const SmoothScrollLink: FC<Props> = ({ to, className, children }: Props) => {
         <Link to={to} className={className} smooth={true} duration={700}>
             {children}
         </Link>
-    )
+    );
 };
 
 export default SmoothScrollLink;

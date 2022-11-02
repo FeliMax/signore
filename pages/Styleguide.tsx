@@ -1,4 +1,4 @@
-import {Header} from '../components/Header/Header';
+import { Header } from '../components/Header/Header';
 import data from '../public/data.json';
 
 const Styleguide = () => {
@@ -19,8 +19,7 @@ const Styleguide = () => {
                 </ul>
             </div>
         </>
-    )
-}
+    );
+};
 
-
-export default Styleguide
+export default Styleguide;
