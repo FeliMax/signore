@@ -20,7 +20,7 @@ export const Projects = () => {
     const projects = content as ProjectContent[];    
 
     return (
-        <section className="bg-primary py-24">
+        <section id="projects" className="bg-primary py-24">
             <div className="container">
                 <h2 className="text-white mb-24">Projects (Icon for Projects)</h2>
 
