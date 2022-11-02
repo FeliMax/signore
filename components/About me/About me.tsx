@@ -1,9 +1,8 @@
 import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 import { useContentFromFile } from '../../hooks/useContentFromFile';
-import Me from '/assets/me.jpeg';
+import Me from 'assets/me.jpeg';
 import { Icon } from '../Icon/Icon';
-import { Element } from 'react-scroll';
 
 export const AboutMe = () => {
     const content = useContentFromFile('content/about.md');
