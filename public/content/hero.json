@@ -1,8 +1,5 @@
 {
     "title": "Hello, I'm Sepp",
     "subtitle": "Welcome to my website",
-    "tags": [
-        "#nextjs",
-        "#react"
-    ]
+    "tags": ["#nextjs", "#react"]
 }

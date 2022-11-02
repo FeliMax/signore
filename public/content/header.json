@@ -1,15 +1,15 @@
 {
-  "logo": "LOGO",
-  "items": [
-    {
-      "text": "About me",
-      "icon": "fa-solid fa-person",
-      "url": "about"
-    },
-    {
-      "text": "Projects",
-      "icon": "fa-solid fa-code",
-      "url": "projects"
-    }
-  ]
+    "logo": "LOGO",
+    "items": [
+        {
+            "text": "About me",
+            "icon": "fa-solid fa-person",
+            "url": "about"
+        },
+        {
+            "text": "Projects",
+            "icon": "fa-solid fa-code",
+            "url": "projects"
+        }
+    ]
 }
