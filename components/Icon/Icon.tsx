@@ -8,7 +8,7 @@ export interface IconProps {
     url?: string;
 }
 
-const Icon = ({ iconName, className, url }: IconProps) => {
+export const Icon = ({ iconName, className, url }: IconProps) => {
     return (
         <a
             className={url === undefined ? 'pointer-events-none' : ''}
@@ -23,5 +23,3 @@ const Icon = ({ iconName, className, url }: IconProps) => {
         </a>
     );
 };
-
-export default Icon;
