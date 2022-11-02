@@ -1,7 +1,7 @@
-import { Icon, iconProps } from '../Icon/Icon';
+import { Icon, IconProps } from './Icon';
 
 interface iconListProps {
-    icons: iconProps[];
+    icons: IconProps[];
     className: string;
     iconClassName?: string;
 }

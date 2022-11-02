@@ -1,4 +1,4 @@
-import { Icon } from '../Icon/Icon';
+import { Icon } from '../Icon';
 import Logo from 'assets/logo.svg';
 import Image from 'next/image';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
