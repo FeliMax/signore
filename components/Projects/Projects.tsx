@@ -20,7 +20,7 @@ export interface ProjectContent {
 export const Projects = () => {
     const projects = content as ProjectContent[]
     return (
-        <section className="bg-primary py-24">
+        <section id="projects" className="bg-primary py-24">
             <div className="container">
                 <div className="flex gap-4 text-white">
                     <Icon iconName="code" className="w-10 md:w-12 h-10 md:h-12"/>

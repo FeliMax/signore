@@ -12,7 +12,7 @@ export const Hero = () => {
     const heroContent = content as HeroContent;
 
     return (
-        <section className=" h-[100vh] flex flex-col justify-start">
+        <section id="/" className=" h-[100vh] flex flex-col justify-start">
             <div className="container flex flex-col items-center text-primary pt-44 ">
                 <h1 className="mb-4">{heroContent.title}</h1>
                 <h5 className="mb-8">{heroContent.subtitle}</h5>
