@@ -1,7 +1,7 @@
-import { ProjectCard } from '../ProjectCard/ProjectCard';
+import { ProjectCard } from '../ProjectCard';
 import content from '../../public/content/projects.json';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
-import { Icon } from '../Icon/Icon';
+import { Icon } from '../Icon';
 
 export interface IconReference {
     icon: IconProp;

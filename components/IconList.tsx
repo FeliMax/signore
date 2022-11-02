@@ -1,4 +1,4 @@
-import { Icon, iconProps } from '../Icon/Icon';
+import { Icon, iconProps } from './Icon';
 
 interface iconListProps {
     icons: iconProps[];

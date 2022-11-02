@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import NextLogo from 'assets/next-logo.png';
-import { IconList } from '../IconList/IconList';
+import { IconList } from '../IconList';
 import SmoothScrollLink from '../SmoothScrollLink';
-import { Logo } from '../Logo/Logo';
-import { IconProps } from '../Icon/Icon';
+import { Logo } from '../Logo';
+import { IconProps } from '../Icon';
 
 // example data
 
