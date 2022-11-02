@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
 /**
  * Hook for reading the contents of a file.
@@ -6,14 +6,14 @@ import { useEffect, useState } from "react";
  * @returns the file content as string
  */
 export const useContentFromFile = (path: string) => {
-    const [content, setContent] = useState<string>("");
+    const [content, setContent] = useState<string>('');
 
-    useEffect(() => {        
-        fetch(path).then(async (res) => {
+    useEffect(() => {
+        fetch(path).then(async res => {
             const content = await res.text();
             setContent(content);
         });
     });
 
     return content;
-}
+};
