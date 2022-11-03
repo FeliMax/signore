@@ -36,11 +36,11 @@ export const Skills = () => {
                             <p className="mb-6">{skill.description}</p>
                             <h6 className="text-portfolio-blue mb-2"></h6>
                             {skill.skill.map((e, j: number) => (
-                                <>
+                                <div key={`${i}-${j}`}>
                                     {/* key consists of "i-j", to avoid collisions with parent keys */}
-                                    <h6 key={`${i}-${j}`}>{e.skillHeading}</h6>
+                                    <h6>{e.skillHeading}</h6>
                                     <p className="mb-6">{e.skillDescription}</p>
-                                </>
+                                </div>
                             ))}
                         </div>
                     );
