@@ -2,12 +2,6 @@ import { ProjectCard } from '../ProjectCard';
 import content from '../../public/content/projects.json';
 import { Icon, IconProps } from '../Icon';
 
-// export interface IconReference {
-//     icon: IconProp;
-//     url: string;
-//     tooltip: string;
-// }
-
 export interface ProjectContent {
     name: string;
     description: string;
