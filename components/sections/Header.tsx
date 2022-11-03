@@ -40,11 +40,11 @@ export const Header = () => {
                             : 'hidden md:gap-12 font-bold')
                     }
                 >
-                    {headerContent.items.map(item => {
+                    {headerContent.items.map((item, index: number) => {
                         return (
                             <li
                                 className="group flex items-center gap-2 text-xl hover:text-secondary cursor-pointer duration-100"
-                                key={item.text}
+                                key={index}
                             >
                                 <SmoothScrollLink
                                     to={item.url ?? ''}
