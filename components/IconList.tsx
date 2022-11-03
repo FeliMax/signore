@@ -13,12 +13,12 @@ export const IconList = ({
 }: IconListProps) => {
     return (
         <div className={'flex ' + className}>
-            {icons?.map(icon => (
+            {icons?.map((icon, index: number) => (
                 <Icon
+                    key={index}
                     iconName={icon.iconName}
                     url={icon.url}
                     className={iconClassName}
-                    key={icon.url}
                 />
             ))}
         </div>
