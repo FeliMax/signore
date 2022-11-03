@@ -39,8 +39,7 @@ export const Footer = () => {
                     <p className="text-sm">Powered by</p>
                     <Image
                         alt="Next Logo"
-                        width={75}
-                        height={50}
+                        className="h-8 w-auto"
                         src={NextLogo}
                     />
                 </div>

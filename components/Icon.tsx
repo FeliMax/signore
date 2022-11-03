@@ -12,7 +12,7 @@ export const Icon = ({ iconName, className, url }: IconProps) => {
     return (
         <a
             className={url === undefined ? 'pointer-events-none' : ''}
-            href={url === undefined ? 'javascript:void(0);' : `https://${url}`}
+            href={url}
             target={url === undefined ? '' : '_blank'}
             rel="noreferrer"
         >

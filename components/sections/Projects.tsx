@@ -23,8 +23,8 @@ export const Projects = () => {
                     <h2>Projects</h2>
                 </div>
                 <div className="flex flex-col items-center md:flex-row md:flex-wrap md:items-stretch gap-8 md:gap-16 mx-auto">
-                    {projects.map((project: ProjectContent) => (
-                        <ProjectCard key={project.name} {...project} />
+                    {projects.map((project: ProjectContent, index: number) => (
+                        <ProjectCard key={index} {...project} />
                     ))}
                 </div>
             </div>
