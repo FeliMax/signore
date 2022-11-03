@@ -28,9 +28,6 @@ const Home: NextPage = () => {
                 <Projects />
                 <Footer />
             </main>
-
-            {/* <footer className={styles.footer}> */}
-            {/* </footer> */}
         </div>
     );
 };

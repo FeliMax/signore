@@ -6,12 +6,12 @@
         "type": "Webpage",
         "references": [
             {
-                "icon": "fa-brands fa-github",
+                "iconName": "fab fa-github",
                 "url": "https://github.com/Maxwell929/signore",
                 "tooltip": "Show on Github"
             },
             {
-                "icon": "fa-brands fa-github",
+                "iconName": "fa-brands fa-github",
                 "url": "https://github.com/Maxwell929/signore",
                 "tooltip": "Show on Github"
             }
@@ -19,12 +19,12 @@
     },
     {
         "name": "Project XYZ",
-        "description": "This is the description of project XYZ.",
+        "description": "This is the description of projeon  projct XY is the description  s the description  project XY is the description of project XYZ.",
         "year": 2022,
         "type": "Flutter Project",
         "references": [
             {
-                "icon": "fa-solid fa-globe",
+                "iconName": "fa-solid fa-globe",
                 "url": "https://example.com",
                 "tooltip": "Show web page"
             }
@@ -37,7 +37,7 @@
         "type": "xy",
         "references": [
             {
-                "icon": "fa-solid fa-globe",
+                "iconName": "fa-solid fa-globe",
                 "url": "https://example.com",
                 "tooltip": "Show web page"
             }

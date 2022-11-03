@@ -1,6 +1,6 @@
 import { Icon, IconProps } from './Icon';
 
-interface iconListProps {
+export interface IconListProps {
     icons: IconProps[];
     className: string;
     iconClassName?: string;
@@ -10,7 +10,7 @@ export const IconList = ({
     icons,
     className,
     iconClassName,
-}: iconListProps) => {
+}: IconListProps) => {
     return (
         <div className={'flex ' + className}>
             {icons?.map(icon => (
