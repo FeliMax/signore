@@ -13,7 +13,7 @@ export const AboutMe = () => {
             className="pb-40 md:pb-64 pt-12 lg:pt-24 bg-secondary"
         >
             <div className="container">
-                <div className="flex items-end gap-2 text-white mb-4 lg:mb-12">
+                <div className="flex items-end gap-2 text-white mb-4 lg:mb-10">
                     <Icon
                         iconName="person"
                         className="h-8 md:h-10 w-8 md:w-10 mb-2 hover:scale-110"
@@ -26,9 +26,9 @@ export const AboutMe = () => {
                             {content}
                         </ReactMarkdown>
                     </div>
-                    <div className=" lg:block relative self-center after:hidden lg:after:block lg:after:content-[''] after:ml-6 after:top-4 after:-mr-6 after:-mb-6 after-w-full after:inset-0 after:absolute after:border-4 after:border-white ">
+                    <div className="lg:block overflow-hidden relative self-center">
                         <Image
-                            className="object-cover z-10 relative md:hover:scale-110 md:hover:transition duration-300 delay-100"
+                            className="relative object-cover z-10  md:hover:scale-110 md:hover:transition duration-300 delay-100"
                             src={Me}
                             alt="Profile"
                         />

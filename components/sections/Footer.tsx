@@ -25,12 +25,16 @@ const icons: IconProps[] = [
 export const Footer = () => {
     return (
         <section className="py-8">
-            <div className="container flex flex-col items-center ">
+            <div className="container flex flex-col items-center gap-4">
                 <SmoothScrollLink to="/" className="hover:cursor-pointer">
                     <Logo />
                 </SmoothScrollLink>
-                <IconList icons={icons} className="gap-8 text-gray-500 py-6" />
-                <p className="text-sm">{`${new Date().getFullYear()} Made by Maximilian Stelzl and Felix Wielander`}</p>
+                <IconList
+                    icons={icons}
+                    className="gap-8 text-gray-500 py-6"
+                    iconClassName="w-10 h-10 hover:scale-110 hover:text-gray-300 duration-300"
+                />
+                <p className="text-center text-sm">{`${new Date().getFullYear()} Made by Maximilian Stelzl and Felix Wielander`}</p>
                 <div className="flex items-center gap-2">
                     <p className="text-sm">Powered by</p>
                     <Image
