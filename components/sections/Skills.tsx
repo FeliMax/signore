@@ -17,7 +17,7 @@ export const Skills = () => {
     const skillData = content as SkillContent[];
     return (
         <section id="skills" className="mb-24">
-            <div className="h-48 bg-secondary"></div>
+            <div className="h-24 md:h-48 bg-secondary"></div>
             <div className="mx-4">
                 <div className="container text-center px-3 md:px-12 w-full -mt-20 md:-mt-36 py-16 bg-white text-gray-800 rounded-2xl shadow">
                     <h2 className="mb-16">Skills and Interests</h2>
