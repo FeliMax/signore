@@ -9,7 +9,15 @@ interface Props {
 
 const SmoothScrollLink: FC<Props> = ({ to, className, children }: Props) => {
     return (
-        <Link to={to} className={className} smooth={true} duration={700}>
+        <Link
+            to={to}
+            className={className}
+            smooth={true}
+            duration={700}
+            spy={true}
+            activeClass="text-secondary"
+            offset={-40}
+        >
             {children}
         </Link>
     );
