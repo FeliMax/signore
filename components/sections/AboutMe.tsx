@@ -10,7 +10,7 @@ export const AboutMe = () => {
     return (
         <section
             id="about"
-            className="pb-40 md:pb-64 pt-12 lg:pt-24 bg-secondary"
+            className="pb-12 md:pb-40 pt-12 lg:pt-24 bg-secondary"
         >
             <div className="container">
                 <div className="flex items-end gap-2 text-white mb-4 lg:mb-10">

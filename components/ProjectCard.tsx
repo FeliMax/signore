@@ -29,7 +29,7 @@ export const ProjectCard = ({
                     />
                 </div>
                 <div className="text-center mt-auto px-8 pb-8 ">
-                    <h6>{name?.toUpperCase()}</h6>
+                    <h6 className="mb-2">{name?.toUpperCase()}</h6>
                     <p className="text-gray-500 ">{description}</p>
                 </div>
                 <div className="text-sm absolute bottom-0 right-0 bg-gray-300 pl-4 pr-2 py-1">
