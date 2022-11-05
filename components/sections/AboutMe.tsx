@@ -10,25 +10,25 @@ export const AboutMe = () => {
     return (
         <section
             id="about"
-            className="pb-40 md:pb-64 pt-12 lg:pt-24 bg-secondary"
+            className="bg-secondary pb-12 pt-12 md:pb-32 lg:pt-24"
         >
             <div className="container">
-                <div className="flex items-end gap-2 text-white mb-4 lg:mb-10">
+                <div className="mb-4 flex items-end gap-2 text-white lg:mb-10">
                     <Icon
                         iconName="person"
-                        className="h-8 md:h-10 w-8 md:w-10 mb-2 hover:scale-110"
+                        className="mb-2 h-8 w-8 hover:scale-110 md:h-10 md:w-10"
                     />
                     <h2>About me</h2>
                 </div>
                 <div className="flex flex-col lg:flex-row lg:justify-between ">
-                    <div className="w-full lg:w-1/2 text-3xl text-white lg:mb-0 mb-8 ">
+                    <div className="mb-8 w-full text-3xl text-white lg:mb-0 lg:w-1/2 ">
                         <ReactMarkdown className="prose text-white">
                             {content}
                         </ReactMarkdown>
                     </div>
-                    <div className="lg:block overflow-hidden relative self-center">
+                    <div className="relative self-center overflow-hidden lg:block">
                         <Image
-                            className="relative object-cover z-10  md:hover:scale-110 md:hover:transition duration-300 delay-100"
+                            className="relative z-10 object-cover  delay-100 duration-300 md:hover:scale-110 md:hover:transition"
                             src={Me}
                             alt="Profile"
                         />

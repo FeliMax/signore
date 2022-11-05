@@ -15,14 +15,14 @@ export const Projects = () => {
     return (
         <section id="projects" className="bg-primary py-12 md:py-24">
             <div className="container">
-                <div className="flex gap-2 md:gap-4 mb-12 md:mb-20 text-white">
+                <div className="mb-12 flex gap-2 text-white md:mb-20 md:gap-4">
                     <Icon
                         iconName="code"
-                        className="w-10 md:w-12 h-10 md:h-12"
+                        className="h-10 w-10 md:h-12 md:w-12"
                     />
                     <h2>Projects</h2>
                 </div>
-                <div className="flex flex-col items-center md:flex-row md:flex-wrap md:items-stretch gap-8 md:gap-16 mx-auto">
+                <div className="mx-auto flex flex-col items-center gap-8 md:flex-row md:flex-wrap md:items-stretch md:gap-16">
                     {projects.map((project: ProjectContent, index: number) => (
                         <ProjectCard key={index} {...project} />
                     ))}
