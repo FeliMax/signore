@@ -31,7 +31,7 @@ export const Footer = () => {
                 </SmoothScrollLink>
                 <IconList
                     icons={icons}
-                    className="gap-8 text-gray-500 py-6"
+                    className="gap-8 py-6 text-gray-500"
                     iconClassName="w-10 h-10 hover:scale-110 hover:text-gray-300 duration-300"
                 />
                 <p className="text-center text-sm">{`${new Date().getFullYear()} Made by Maximilian Stelzl and Felix Wielander`}</p>

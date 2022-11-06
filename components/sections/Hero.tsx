@@ -12,8 +12,8 @@ export const Hero = () => {
     const heroContent = content as HeroContent;
 
     return (
-        <section id="/" className=" h-[100vh] flex flex-col justify-start">
-            <div className="container flex flex-col items-center text-primary pt-44 ">
+        <section id="/" className=" flex h-[100vh] flex-col justify-start">
+            <div className="container flex flex-col items-center pt-44 text-primary ">
                 <h1 className="mb-4 font-bold">{heroContent.title}</h1>
                 <h5 className="mb-8">{heroContent.subtitle}</h5>
                 <Image src={Me} alt="Profile" />

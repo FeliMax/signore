@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+/** @type {import("tailwindcss").Config} */
 
 module.exports = {
     content: [
@@ -25,5 +25,7 @@ module.exports = {
             },
         },
     },
-    plugins: [require('@tailwindcss/typography')],
+    plugins: [
+        require('@tailwindcss/typography', 'prettier-plugin-tailwindcss'),
+    ],
 };
