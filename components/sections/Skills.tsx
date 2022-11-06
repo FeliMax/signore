@@ -17,24 +17,24 @@ export const Skills = () => {
     const skillData = content as SkillContent[];
     return (
         <section id="skills" className="mb-24">
-            <div className="h-24 md:h-48 bg-secondary"></div>
+            <div className="h-24 bg-secondary md:h-48"></div>
             <div className="mx-4">
-                <div className="container text-center px-3 md:px-12 w-full -mt-20 md:-mt-36 py-16 bg-white text-gray-800 rounded-2xl shadow">
+                <div className="container -mt-20 w-full rounded-2xl bg-white px-3 py-16 text-center text-gray-800 shadow md:-mt-36 md:px-12">
                     <h2 className="mb-16">Skills and Interests</h2>
-                    <div className=" flex flex-col md:flex-row justify-between md:gap-40">
+                    <div className=" flex flex-col justify-between md:flex-row md:gap-40">
                         {skillData.map((skill, i: number) => {
                             return (
                                 <div
-                                    className="flex flex-col items-center flex-1 mb-8 text-center"
+                                    className="mb-8 flex flex-1 flex-col items-center text-center"
                                     key={i}
                                 >
-                                    <div className="bg-primary p-4 rounded-full mb-4 md:mb-8">
+                                    <div className="mb-4 rounded-full bg-primary p-4 md:mb-8">
                                         <Icon
                                             iconName="terminal"
-                                            className="text-white w-6 h-6"
+                                            className="h-6 w-6 text-white"
                                         />
                                     </div>
-                                    <h4 className="mb-4 text-portfolio-blue-dark">
+                                    <h4 className="text-portfolio-blue-dark mb-4">
                                         {skill.heading}
                                     </h4>
                                     <p className="mb-6">{skill.description}</p>

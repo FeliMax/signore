@@ -26,23 +26,23 @@ export const Header = () => {
     };
 
     return (
-        <header className="fixed w-full h-fit px-2 py-4 bg-white shadow-md z-20">
-            <nav className=" container flex justify-between items-center gap-12 text-gray-500">
+        <header className="fixed z-20 h-fit w-full bg-white px-2 py-4 shadow-md">
+            <nav className=" container flex items-center justify-between gap-12 text-gray-500">
                 <SmoothScrollLink to="/" className="hover:cursor-pointer">
                     <Logo />
                 </SmoothScrollLink>
                 <ul
                     className={
-                        'md:flex md:flex-row font-bold ' +
+                        'font-bold md:flex md:flex-row ' +
                         (open
-                            ? 'absolute top-full flex flex-col gap-8 items-start px-8 pt-12 bg-white inset-0 h-screen pointer-events-none'
-                            : 'hidden md:gap-12 font-bold')
+                            ? 'pointer-events-none absolute inset-0 top-full flex h-screen flex-col items-start gap-8 bg-white px-8 pt-12'
+                            : 'hidden font-bold md:gap-12')
                     }
                 >
                     {headerContent.items.map((item, index: number) => {
                         return (
                             <li
-                                className="group flex items-center gap-2 text-xl hover:text-secondary cursor-pointer duration-100"
+                                className="group flex cursor-pointer items-center gap-2 text-xl duration-100 hover:text-secondary"
                                 key={index}
                             >
                                 <SmoothScrollLink
@@ -50,7 +50,7 @@ export const Header = () => {
                                     className="flex space-x-2"
                                 >
                                     <FontAwesomeIcon
-                                        className="w-6 h-6 group-hover:rotate-[360deg] duration-700"
+                                        className="h-6 w-6 duration-700 group-hover:rotate-[360deg]"
                                         icon={item.icon as IconProp}
                                     />
                                     <span>{item.text}</span>
@@ -61,7 +61,7 @@ export const Header = () => {
                 </ul>
                 <button className="block md:hidden" onClick={setIsOpen}>
                     <Icon
-                        className={'w-8 h-8'}
+                        className={'h-8 w-8'}
                         iconName={!open ? 'bars' : 'x'}
                     />
                 </button>
