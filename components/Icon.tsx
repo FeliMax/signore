@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Direction, Tooltip } from './Tooltip';
+import { Tooltip } from './Tooltip';
 
 export interface IconProps {
     iconName: string;
