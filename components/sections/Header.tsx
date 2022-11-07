@@ -35,8 +35,8 @@ export const Header = () => {
                     className={
                         'font-bold md:flex md:flex-row ' +
                         (open
-                            ? 'pointer-events-none absolute inset-0 top-full flex h-screen flex-col items-start gap-8 bg-white px-8 pt-12'
-                            : 'hidden font-bold md:gap-12')
+                            ? 'absolute inset-0 top-full flex h-screen flex-col items-start gap-8 bg-gray-200 bg-white px-8 pt-12 duration-300'
+                            : 'hidden h-0 font-bold md:gap-12')
                     }
                 >
                     {headerContent.items.map((item, index: number) => {
