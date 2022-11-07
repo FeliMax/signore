@@ -1,10 +1,14 @@
 import Image from 'next/image';
 import Me from 'assets/avatar.svg';
 import content from '../../public/content/hero.json';
+import { IconList } from '../IconList';
+import { IconProps } from '../Icon';
+import { icons } from './Footer';
 
 interface HeroContent {
     title: string;
     subtitle: string;
+    iconList: IconProps[];
     tags: string[];
 }
 
@@ -17,8 +21,12 @@ export const Hero = () => {
                 <h1 className="mb-4 font-bold">{heroContent.title}</h1>
                 <h5 className="mb-8">{heroContent.subtitle}</h5>
                 <Image src={Me} alt="Profile" />
-
-                <h4 className="mt-12">{heroContent.tags.join(' ')}</h4>
+                <IconList
+                    icons={icons}
+                    iconClassName="h-12 w-12"
+                    className="my-12 gap-10"
+                />
+                <h4>{heroContent.tags.join(' ')}</h4>
             </div>
         </section>
     );
