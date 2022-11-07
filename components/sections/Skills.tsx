@@ -8,6 +8,7 @@ interface SkillList {
 }
 
 export interface SkillContent {
+    iconName: string;
     heading: string;
     description: string;
     skill: SkillList[];
@@ -30,7 +31,7 @@ export const Skills = () => {
                                 >
                                     <div className="mb-4 rounded-full bg-primary p-4 md:mb-8">
                                         <Icon
-                                            iconName="terminal"
+                                            iconName={skill.iconName}
                                             className="h-6 w-6 text-white"
                                         />
                                     </div>
