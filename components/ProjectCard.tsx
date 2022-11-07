@@ -15,7 +15,7 @@ export const ProjectCard = ({
             <p className="absolute top-0 left-0 z-10  p-2 font-bold">{year}</p>
             <div className="absolute inset-0 top-0 h-[6rem] rounded-t-lg bg-gray-300"></div>
 
-            <div className=" flex flex-col items-center gap-4">
+            <div className="flex flex-col items-center gap-4">
                 <div className="z-10 mt-4 h-24 w-24">
                     <Image
                         className="object-contain"

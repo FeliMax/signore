@@ -20,6 +20,7 @@ export const IconList = ({
                     url={icon.url}
                     className={iconClassName}
                     tooltip={icon.tooltip}
+                    tooltipDirection={icon.tooltipDirection}
                 />
             ))}
         </div>
