@@ -1,46 +1,47 @@
 [
-    {
-        "name": "This Webpage",
-        "description": "This webpage has been built using nextjs and react.",
-        "year": 2022,
-        "type": "Webpage",
-        "references": [
-            {
-                "iconName": "fab fa-github",
-                "url": "https://github.com/Maxwell929/signore",
-                "tooltip": "Show on Github"
-            },
-            {
-                "iconName": "fa-brands fa-github",
-                "url": "https://github.com/Maxwell929/signore",
-                "tooltip": "Show on Github"
-            }
-        ]
-    },
-    {
-        "name": "Project XYZ",
-        "description": "This is the description of projeon  projct XY is the description  s the description  project XY is the description of project XYZ.",
-        "year": 2022,
-        "type": "Flutter Project",
-        "references": [
-            {
-                "iconName": "fa-solid fa-globe",
-                "url": "https://example.com",
-                "tooltip": "Show web page"
-            }
-        ]
-    },
-    {
-        "name": "Project XYZ",
-        "description": "This is the description of project XYZ.",
-        "year": 2022,
-        "type": "xy",
-        "references": [
-            {
-                "iconName": "fa-solid fa-globe",
-                "url": "https://example.com",
-                "tooltip": "Show web page"
-            }
-        ]
-    }
+  {
+    "name": "This Webpage",
+    "description": "This webpage has been built using nextjs and react.",
+    "year": 2022,
+    "type": "Webpage",
+    "references": [
+      {
+        "iconName": "fab fa-github",
+        "url": "https://github.com/Maxwell929/signore",
+        "tooltip": "Show on Github"
+      },
+      {
+        "iconName": "fa-brands fa-github",
+        "url": "https://github.com/Maxwell929/signore",
+        "tooltip": "Show on Github"
+      }
+    ]
+  },
+  {
+    "name": "Project XYZ",
+    "description": "This is the description of projeon  projct XY is the description  s the description  project XY is the description of project XYZ.",
+    "year": 2022,
+    "type": "Flutter Project",
+    "references": [
+      {
+        "iconName": "fa-solid fa-globe",
+        "url": "https://example.com",
+        "tooltip": "Show web page",
+        "tooltipDirection": "top"
+      }
+    ]
+  },
+  {
+    "name": "Project XYZ",
+    "description": "This is the description of project XYZ.",
+    "year": 2022,
+    "type": "xy",
+    "references": [
+      {
+        "iconName": "fa-solid fa-globe",
+        "url": "https://example.com",
+        "tooltip": "Show web page"
+      }
+    ]
+  }
 ]

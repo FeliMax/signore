@@ -8,7 +8,7 @@ export interface IconProps {
     className?: string;
     url?: string;
     tooltip?: string;
-    tooltipDirection: Direction;
+    tooltipDirection?: Direction;
 }
 
 export const Icon = ({
