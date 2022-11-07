@@ -8,16 +8,9 @@ export interface IconProps {
     className?: string;
     url?: string;
     tooltip?: string;
-    tooltipDirection?: Direction;
 }
 
-export const Icon = ({
-    iconName,
-    className,
-    url,
-    tooltip,
-    tooltipDirection,
-}: IconProps) => {
+export const Icon = ({ iconName, className, url, tooltip }: IconProps) => {
     return (
         <a
             className={
@@ -28,15 +21,7 @@ export const Icon = ({
             target={url === undefined ? '' : '_blank'}
             rel="noreferrer"
         >
-            {tooltip != null ? (
-                <Tooltip
-                    tooltipName={tooltip}
-                    classname=""
-                    tooltipDirection={tooltipDirection}
-                />
-            ) : (
-                ''
-            )}
+            {tooltip != null ? <Tooltip tooltipName={tooltip} /> : ''}
 
             <FontAwesomeIcon
                 className={className}
