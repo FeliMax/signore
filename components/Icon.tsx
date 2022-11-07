@@ -21,8 +21,7 @@ export const Icon = ({ iconName, className, url, tooltip }: IconProps) => {
             target={url === undefined ? '' : '_blank'}
             rel="noreferrer"
         >
-            {tooltip != null ? <Tooltip tooltipName={tooltip} /> : ''}
-
+            {tooltip !== undefined && <Tooltip tooltipName={tooltip} />}
             <FontAwesomeIcon
                 className={className}
                 icon={iconName as IconProp}
