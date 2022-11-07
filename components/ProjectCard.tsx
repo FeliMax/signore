@@ -11,7 +11,7 @@ export const ProjectCard = ({
     references,
 }: ProjectContent) => {
     return (
-        <article className="relative z-10 min-h-[20rem] w-[18rem] rounded-lg bg-white py-4 shadow-md duration-300 md:hover:scale-110 md:hover:shadow-lg">
+        <article className="relative z-10 min-h-[20rem] w-[18rem] rounded-lg bg-white py-4 shadow-md duration-300 md:hover:scale-105 md:hover:shadow-lg">
             <p className="absolute top-0 left-0 z-10  p-2 font-bold">{year}</p>
             <div className="absolute inset-0 top-0 h-[6rem] rounded-t-lg bg-gray-300"></div>
 
