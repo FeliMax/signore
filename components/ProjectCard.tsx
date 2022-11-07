@@ -28,7 +28,7 @@ export const ProjectCard = ({
                     <p className="text-gray-500 ">{description}</p>
                 </div>
             </div>
-            <div className="absolute bottom-0 right-0 rounded-br-lg bg-gray-300 py-1 pl-4 pr-2 text-sm">
+            <div className="absolute bottom-0 right-0 rounded-tl-lg rounded-br-lg bg-gray-300 py-1 px-2 text-sm">
                 {type}
             </div>
             <IconList
