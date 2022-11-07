@@ -1,21 +1,27 @@
 import React from 'react';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Tooltip } from './Tooltip';
 
 export interface IconProps {
     iconName: string;
     className?: string;
     url?: string;
+    tooltip?: string;
 }
 
-export const Icon = ({ iconName, className, url }: IconProps) => {
+export const Icon = ({ iconName, className, url, tooltip }: IconProps) => {
     return (
         <a
-            className={url === undefined ? 'pointer-events-none' : ''}
+            className={
+                'group relative ' +
+                (url === undefined ? 'pointer-events-none' : '')
+            }
             href={url}
             target={url === undefined ? '' : '_blank'}
             rel="noreferrer"
         >
+            {tooltip !== undefined && <Tooltip tooltipName={tooltip} />}
             <FontAwesomeIcon
                 className={className}
                 icon={iconName as IconProp}

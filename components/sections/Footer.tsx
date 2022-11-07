@@ -7,18 +7,21 @@ import { IconProps } from '../Icon';
 
 // example data
 
-const icons: IconProps[] = [
+export const icons: IconProps[] = [
     {
         iconName: 'fab fa-github',
         url: 'github.com',
+        tooltip: 'Github',
     },
     {
         iconName: 'fab fa-linkedin',
         url: 'linkedin.com',
+        tooltip: 'Linkedin',
     },
     {
         iconName: 'fab fa-gitlab',
         url: 'gitlab.com',
+        tooltip: 'Gitlab',
     },
 ];
 

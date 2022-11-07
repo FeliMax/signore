@@ -19,6 +19,7 @@ export const IconList = ({
                     iconName={icon.iconName}
                     url={icon.url}
                     className={iconClassName}
+                    tooltip={icon.tooltip}
                 />
             ))}
         </div>
