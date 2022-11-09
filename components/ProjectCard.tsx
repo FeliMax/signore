@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import { ProjectContent } from './sections/Projects';
-import Me from 'assets/avatar.svg';
 import { IconList } from './IconList';
 
 export const ProjectCard = ({
@@ -16,11 +15,13 @@ export const ProjectCard = ({
             <div className="absolute inset-0 top-0 h-[6rem] rounded-t-lg bg-gray-300"></div>
 
             <div className="flex flex-col items-center gap-4">
-                <div className="z-10 mt-4 h-24 w-24">
+                <div className="relative z-10 mt-4 h-24 w-24">
                     <Image
                         className="object-contain"
-                        src={Me}
+                        src="/images/avatar.svg"
                         alt="Project image"
+                        fill={true}
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     />
                 </div>
                 <div className="mt-auto px-8 pb-8 text-center ">

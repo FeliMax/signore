@@ -1,12 +1,7 @@
 {
     "title": "Hello, I'm Sepp",
     "subtitle": "Welcome to my website",
-    "iconList": [
-        {
-        }
-    ],
-    "tags": [
-        "#nextjs",
-        "#react"
-    ]
+    "imageUrl": "/images/avatar.svg",
+    "iconList": [{}],
+    "tags": ["#nextjs", "#react"]
 }
