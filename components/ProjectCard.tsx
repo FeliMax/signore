@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import ExportedImage from 'next-image-export-optimizer';
 import { ProjectContent } from './sections/Projects';
 import { IconList } from './IconList';
 
@@ -16,12 +16,13 @@ export const ProjectCard = ({
 
             <div className="flex flex-col items-center gap-4">
                 <div className="relative z-10 mt-4 h-24 w-24">
-                    <Image
+                    <ExportedImage
                         className="object-contain"
                         src="/images/avatar.svg"
                         alt="Project image"
                         fill={true}
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        placeholder="empty"
                     />
                 </div>
                 <div className="mt-auto px-8 pb-8 text-center ">

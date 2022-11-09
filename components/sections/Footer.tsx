@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import ExportedImage from 'next-image-export-optimizer';
 import NextLogo from 'assets/next-logo.png';
 import { IconList } from '../IconList';
 import SmoothScrollLink from '../SmoothScrollLink';
@@ -40,10 +40,11 @@ export const Footer = () => {
                 <p className="text-center text-sm">{`${new Date().getFullYear()} Made by Maximilian Stelzl and Felix Wielander`}</p>
                 <div className="flex items-center gap-2">
                     <p className="text-sm">Powered by</p>
-                    <Image
+                    <ExportedImage
                         alt="Next Logo"
                         className="h-8 w-auto"
                         src={NextLogo}
+                        placeholder="empty"
                     />
                 </div>
             </div>

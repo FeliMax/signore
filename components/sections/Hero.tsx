@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import ExportedImage from 'next-image-export-optimizer';
 import content from '../../public/content/hero.json';
 import { IconList } from '../IconList';
 import { IconProps } from '../Icon';
@@ -22,11 +22,12 @@ export const Hero = () => {
                 <h5 className="mb-8">{heroContent.subtitle}</h5>
                 {heroContent.imageUrl !== undefined && (
                     <div className="min-w-auto relative h-64 w-64">
-                        <Image
+                        <ExportedImage
                             src={heroContent.imageUrl}
                             alt="Profile"
                             fill={true}
                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                            placeholder="empty"
                         />
                     </div>
                 )}
