@@ -1,7 +1,6 @@
-import Image from 'next/image';
+import ExportedImage from 'next-image-export-optimizer';
 import ReactMarkdown from 'react-markdown';
 import { useContentFromFile } from '../../hooks/useContentFromFile';
-import Me from 'assets/me.jpeg';
 import { Icon } from '../Icon';
 
 export const AboutMe = () => {
@@ -26,11 +25,14 @@ export const AboutMe = () => {
                             {content}
                         </ReactMarkdown>
                     </div>
-                    <div className="relative self-center overflow-hidden lg:block">
-                        <Image
-                            className="relative z-10 object-cover  delay-100 duration-300 md:hover:scale-110 md:hover:transition"
-                            src={Me}
+                    <div className="relative h-80 w-80 self-center overflow-hidden lg:block">
+                        <ExportedImage
+                            className="relative z-10 object-cover delay-100 duration-300 md:hover:scale-110 md:hover:transition"
+                            src="/images/me.jpeg"
                             alt="Profile"
+                            fill={true}
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                            placeholder="empty"
                         />
                     </div>
                 </div>
