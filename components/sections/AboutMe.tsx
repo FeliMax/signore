@@ -28,7 +28,7 @@ export const AboutMe = () => {
                     <div className="relative h-80 w-80 self-center overflow-hidden lg:block">
                         <ExportedImage
                             className="relative z-10 object-cover delay-100 duration-300 md:hover:scale-110 md:hover:transition"
-                            src="/images/me.jpeg"
+                            src="./images/me.jpeg"
                             alt="Profile"
                             fill={true}
                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

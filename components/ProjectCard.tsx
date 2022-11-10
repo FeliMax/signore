@@ -18,7 +18,7 @@ export const ProjectCard = ({
                 <div className="relative z-10 mt-4 h-24 w-24">
                     <ExportedImage
                         className="object-contain"
-                        src="/images/avatar.svg"
+                        src="./images/avatar.svg"
                         alt="Project image"
                         fill={true}
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

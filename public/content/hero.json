@@ -1,7 +1,7 @@
 {
     "title": "Hello, I'm Sepp",
     "subtitle": "Welcome to my website",
-    "imageUrl": "/images/avatar.svg",
+    "imageUrl": "./images/avatar.svg",
     "iconList": [{}],
     "tags": ["#nextjs", "#react"]
 }
