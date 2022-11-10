@@ -22,6 +22,7 @@ const nextConfig = {
         // placeholder images in the console.
         nextImageExportOptimizer_generateAndUseBlurImages: false,
     },
+    assetPrefix: './',
 };
 
 module.exports = nextConfig;
