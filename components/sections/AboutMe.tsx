@@ -20,12 +20,12 @@ export const AboutMe = () => {
                     <h2>About me</h2>
                 </div>
                 <div className="flex flex-col lg:flex-row lg:justify-between ">
-                    <div className="mb-8 w-full text-3xl text-white lg:mb-0 lg:w-1/2 ">
-                        <ReactMarkdown className="prose text-white">
+                    <div className="mb-8 w-full text-4xl text-white lg:mb-0 lg:w-1/2 ">
+                        <ReactMarkdown className="prose text-white prose-h4:text-white">
                             {content}
                         </ReactMarkdown>
                     </div>
-                    <div className="relative h-80 w-80 self-center overflow-hidden lg:block">
+                    <div className="relative h-[25rem] w-[25rem] md:h-[30rem] md:w-[30rem] self-center overflow-hidden lg:block">
                         <ExportedImage
                             className="relative z-10 object-cover delay-100 duration-300 md:hover:scale-110 md:hover:transition"
                             src="./images/me.jpeg"

@@ -1,10 +1,10 @@
-import { Icon } from '../Icon';
-import { IconProp } from '@fortawesome/fontawesome-svg-core';
+import {Icon} from '../Icon';
+import {IconProp} from '@fortawesome/fontawesome-svg-core';
 import content from '../../public/content/header.json';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import SmoothScrollLink from '../SmoothScrollLink';
-import { useState } from 'react';
-import { Logo } from '../Logo';
+import {useState} from 'react';
+import {Logo} from '../Logo';
 
 interface NavbarItem {
     text?: string;
@@ -27,13 +27,13 @@ export const Header = () => {
 
     return (
         <header className="fixed z-20 h-fit w-full bg-white px-2 py-4 shadow-md">
-            <nav className=" container flex items-center justify-between gap-12 text-gray-500">
+            <nav className="container flex items-center justify-between gap-12 text-gray-500">
                 <SmoothScrollLink to="/" className="hover:cursor-pointer">
-                    <Logo />
+                    <Logo/>
                 </SmoothScrollLink>
                 <ul
                     className={
-                        'font-bold md:flex md:flex-row ' +
+                        'font-bold md:flex flex-col md:flex-row ' +
                         (open
                             ? 'absolute inset-0 top-full flex h-screen flex-col items-start gap-8 bg-white px-8 pt-12'
                             : 'hidden font-bold md:gap-12')
@@ -48,6 +48,7 @@ export const Header = () => {
                                 <SmoothScrollLink
                                     to={item.url ?? ''}
                                     className="flex space-x-2"
+                                    onClick={open ? setIsOpen : ''}
                                 >
                                     <FontAwesomeIcon
                                         className="h-6 w-6 duration-700 group-hover:rotate-[360deg]"
