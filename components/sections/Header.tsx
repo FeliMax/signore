@@ -48,6 +48,7 @@ export const Header = () => {
                                 <SmoothScrollLink
                                     to={item.url ?? ''}
                                     className="flex space-x-2"
+                                    onClick={open ? setIsOpen : ''}
                                 >
                                     <FontAwesomeIcon
                                         className="h-6 w-6 duration-700 group-hover:rotate-[360deg]"

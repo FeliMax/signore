@@ -17,9 +17,11 @@ export const Hero = () => {
 
     return (
         <section id="/" className=" flex h-[100vh] flex-col justify-start">
-            <div className="container flex flex-col items-center pt-44 text-primary ">
-                <h1 className="mb-4 font-bold">{heroContent.title}</h1>
-                <h5 className="mb-8">{heroContent.subtitle}</h5>
+            <div className="container flex flex-col items-center pt-24 text-primary md:pt-44 ">
+                <h1 className="mb-4 text-center font-bold">
+                    {heroContent.title}
+                </h1>
+                <h5 className="mb-8 text-center">{heroContent.subtitle}</h5>
                 {heroContent.imageUrl !== undefined && (
                     <div className="min-w-auto relative h-64 w-64">
                         <ExportedImage

@@ -1,36 +1,36 @@
 [
-  {
-    "iconName": "terminal",
-    "heading": "Programming",
-    "description": "I like to code things from scratch, and enjoy bringing ideas to life in the browser.,",
-    "skill": [
-      {
-        "skillHeading": "Languages I speak:",
-        "skillDescription": "HTML, CSS, Sass, Javascript/Typescript, Python, C++, Dart"
-      },
-      {
-        "skillHeading": "Tech Tools",
-        "skillDescription": "HTML, CSS, Sass, Javascript/Typescript, Python, C++, Dart"
-      },
-      {
-        "skillHeading": "Design Tools",
-        "skillDescription": "HTML, CSS, Sass, Javascript/Typescript, Python, C++, Dart"
-      }
-    ]
-  },
-  {
-    "iconName": "book",
-    "heading": "Interrests",
-    "description": "I like to code things from scratch, and enjoy bringing ideas to life in the browser.,",
-    "skill": [
-      {
-        "skillHeading": "Sports",
-        "skillDescription": "HTML, CSS, Sass, Javascript/Typescript, Python, C++, Dart and a lot of other shit"
-      },
-      {
-        "skillHeading": "IT-Topics",
-        "skillDescription": "HTML, CSS, Sass, Javascript/Typescript, Python, C++, Dart"
-      }
-    ]
-  }
+    {
+        "iconName": "terminal",
+        "heading": "Programming",
+        "description": "I like to code things from scratch, and enjoy bringing ideas to life in the browser.,",
+        "skill": [
+            {
+                "skillHeading": "Languages I speak:",
+                "skillDescription": "HTML, CSS, Sass, Javascript/Typescript, Python, C++, Dart"
+            },
+            {
+                "skillHeading": "Tech Tools",
+                "skillDescription": "HTML, CSS, Sass, Javascript/Typescript, Python, C++, Dart"
+            },
+            {
+                "skillHeading": "Design Tools",
+                "skillDescription": "HTML, CSS, Sass, Javascript/Typescript, Python, C++, Dart"
+            }
+        ]
+    },
+    {
+        "iconName": "book",
+        "heading": "Interrests",
+        "description": "I like to code things from scratch, and enjoy bringing ideas to life in the browser.,",
+        "skill": [
+            {
+                "skillHeading": "Sports",
+                "skillDescription": "HTML, CSS, Sass, Javascript/Typescript, Python, C++, Dart and a lot of other shit"
+            },
+            {
+                "skillHeading": "IT-Topics",
+                "skillDescription": "HTML, CSS, Sass, Javascript/Typescript, Python, C++, Dart"
+            }
+        ]
+    }
 ]
