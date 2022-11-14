@@ -21,19 +21,19 @@ export const Header = () => {
     const headerContent = content as HeaderContent;
     const [open, setOpen] = useState<boolean>(false);
 
-    const setIsOpen = (): void => {
+    const toggleIsOpen = (): void => {
         setOpen(prevState => !prevState);
     };
 
     return (
         <header className="fixed z-20 h-fit w-full bg-white px-2 shadow-md">
             <nav className=" container flex items-center justify-between gap-12 text-gray-500">
-                <SmoothScrollLink to="/" className="hover:cursor-pointer">
+                <SmoothScrollLink to="/" className="py-2 hover:cursor-pointer">
                     <Logo />
                 </SmoothScrollLink>
                 <ul
                     className={
-                        'py-4 font-bold md:flex md:flex-row ' +
+                        'font-bold md:flex md:flex-row ' +
                         (open
                             ? 'absolute inset-0 top-full flex h-screen flex-col items-start gap-8 bg-white px-8 pt-12'
                             : 'hidden font-bold md:gap-12')
@@ -48,7 +48,7 @@ export const Header = () => {
                                 <SmoothScrollLink
                                     to={item.url ?? ''}
                                     className="flex space-x-2"
-                                    onClick={open ? setIsOpen : ''}
+                                    onClick={open ? toggleIsOpen : undefined}
                                 >
                                     <FontAwesomeIcon
                                         className="h-6 w-6 duration-700 group-hover:rotate-[360deg]"
@@ -60,7 +60,7 @@ export const Header = () => {
                         );
                     })}
                 </ul>
-                <button className="block md:hidden" onClick={setIsOpen}>
+                <button className="block md:hidden" onClick={toggleIsOpen}>
                     <Icon
                         className={'h-8 w-8'}
                         iconName={!open ? 'bars' : 'x'}
