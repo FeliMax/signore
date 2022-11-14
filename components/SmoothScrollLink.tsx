@@ -5,7 +5,7 @@ interface Props {
     to: string;
     className?: string;
     children?: React.ReactNode;
-    onClick?: React.MouseEvent;
+    onClick?: () => void;
 }
 
 const SmoothScrollLink: FC<Props> = ({
@@ -23,7 +23,7 @@ const SmoothScrollLink: FC<Props> = ({
             spy={true}
             activeClass="text-secondary"
             offset={-40}
-            onClick={() => onClick()}
+            onClick={onClick}
         >
             {children}
         </Link>
