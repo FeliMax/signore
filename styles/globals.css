@@ -37,13 +37,17 @@
         @apply mb-1;
     }
 
+    .prose h4 {
+        @apply mb-2;
+    }
+
     h5,
     .prose h5 {
         @apply text-xl md:text-2xl font-bold;
     }
 
     .prose h5 {
-        @apply mb-1;
+        @apply mb-2;
     }
 
     h6,
