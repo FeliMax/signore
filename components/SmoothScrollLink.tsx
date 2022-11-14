@@ -1,14 +1,19 @@
-import React, {FC} from 'react';
-import {Link} from 'react-scroll';
+import React, { FC } from 'react';
+import { Link } from 'react-scroll';
 
 interface Props {
     to: string;
     className?: string;
     children?: React.ReactNode;
-    onClick?: React.MouseEvent
+    onClick?: React.MouseEvent;
 }
 
-const SmoothScrollLink: FC<Props> = ({to, className, children, onClick}: Props) => {
+const SmoothScrollLink: FC<Props> = ({
+    to,
+    className,
+    children,
+    onClick,
+}: Props) => {
     return (
         <Link
             to={to}
