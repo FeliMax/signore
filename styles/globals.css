@@ -13,16 +13,18 @@
         @apply !max-w-[100%];
     }
 
-    h1 {
+    h1,
+    .prose h1 {
         @apply text-5xl md:text-6xl font-extrabold;
     }
 
-    h2 {
+    h2,
+    .prose h2 {
         @apply text-4xl md:text-5xl font-bold;
     }
 
     h3,
-    .h3 {
+    .prose h3 {
         @apply text-3xl md:text-4xl font-bold;
     }
 
@@ -44,13 +46,14 @@
         @apply mb-1;
     }
 
-    h6 {
+    h6,
+    .prose h6 {
         @apply text-base md:text-lg font-bold;
     }
 
     p,
     .prose p {
-        @apply text-xl md:text-2xl font-normal mt-0 leading-7;
+        @apply text-xl md:text-2xl font-normal mt-0;
     }
 
     .prose p {

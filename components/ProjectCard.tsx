@@ -11,7 +11,9 @@ export const ProjectCard = ({
 }: ProjectContent) => {
     return (
         <article className="relative z-10 min-h-[20rem] w-[18rem] rounded-lg bg-white py-4 shadow-md duration-300 md:hover:scale-105 md:hover:shadow-lg">
-            <p className="absolute top-0 left-0 z-10  p-2 font-bold">{year}</p>
+            <p className="absolute top-0 left-0 z-10 p-2 text-base font-bold">
+                {year}
+            </p>
             <div className="absolute inset-0 top-0 h-[6rem] rounded-t-lg bg-gray-300"></div>
 
             <div className="flex flex-col items-center gap-4">
@@ -27,10 +29,12 @@ export const ProjectCard = ({
                 </div>
                 <div className="mt-auto px-8 pb-8 text-center ">
                     <h6 className="mb-2">{name?.toUpperCase()}</h6>
-                    <p className="text-gray-500 ">{description}</p>
+                    <p className="text-sm font-semibold text-gray-500">
+                        {description}
+                    </p>
                 </div>
             </div>
-            <div className="absolute bottom-0 right-0 rounded-tl-lg rounded-br-lg bg-gray-300 py-1 px-2 text-sm">
+            <div className="absolute bottom-0 right-0 rounded-tl-lg rounded-br-lg bg-gray-300 py-1 px-2 text-sm font-semibold">
                 {type}
             </div>
             <IconList
