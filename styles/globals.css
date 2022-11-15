@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
     html {
-        @apply font-montserrat;
+        @apply font-text;
     }
 
     .prose {
@@ -15,12 +14,12 @@
 
     h1,
     .prose h1 {
-        @apply text-5xl md:text-6xl font-extrabold;
+        @apply font-heading text-5xl md:text-6xl;
     }
 
     h2,
     .prose h2 {
-        @apply text-4xl md:text-5xl font-bold;
+        @apply font-heading text-4xl md:text-5xl;
     }
 
     h3,
