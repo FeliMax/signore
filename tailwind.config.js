@@ -8,7 +8,10 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                montserrat: ['Montserrat', 'sans-serif'],
+                // font family for headings, can be replaced as wanted
+                heading: ['Carter One', 'sans-serif'],
+                // font family for normal text, can be replaced as wanted
+                text: ['Montserrat', 'sans-serif'],
             },
 
             colors: {
