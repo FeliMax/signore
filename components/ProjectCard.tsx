@@ -10,12 +10,11 @@ export const ProjectCard = ({
     references,
 }: ProjectContent) => {
     return (
-        <article className="relative z-10 min-h-[20rem] w-[18rem] rounded-lg bg-white py-4 shadow-md duration-300 md:hover:scale-105 md:hover:shadow-lg">
+        <article className="relative z-10 min-h-[20rem] rounded-lg bg-white py-4 shadow-md duration-300 md:w-[30%] md:hover:scale-105 md:hover:shadow-lg">
             <p className="absolute top-0 left-0 z-10 p-2 text-base font-bold">
                 {year}
             </p>
             <div className="absolute inset-0 top-0 h-[6rem] rounded-t-lg bg-gray-300"></div>
-
             <div className="flex flex-col items-center gap-4">
                 <div className="relative z-10 mt-4 h-24 w-24">
                     <ExportedImage
@@ -27,9 +26,9 @@ export const ProjectCard = ({
                         placeholder="empty"
                     />
                 </div>
-                <div className="mt-auto px-8 pb-8 text-center ">
-                    <h6 className="mb-2">{name?.toUpperCase()}</h6>
-                    <p className="text-sm font-semibold text-gray-500">
+                <div className="mt-auto px-8 pb-8 text-center">
+                    <h5 className="mb-2">{name?.toUpperCase()}</h5>
+                    <p className="line-clamp-3 text-xl font-semibold text-gray-500">
                         {description}
                     </p>
                 </div>

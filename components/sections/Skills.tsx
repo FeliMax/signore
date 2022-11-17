@@ -20,7 +20,7 @@ export const Skills = () => {
         <section id="skills" className="mb-24">
             <div className="h-24 bg-primary md:h-48"></div>
             <div className="mx-4">
-                <div className="container -mt-20 w-full rounded-2xl bg-white px-3 py-16 text-center text-gray-800 shadow md:-mt-36 md:px-12">
+                <div className="container -mt-20 w-full rounded-2xl border-2 bg-white px-3 py-16 text-center text-gray-800 shadow md:-mt-36 md:px-12">
                     <h2 className="mb-16">Skills and Interests</h2>
                     <div className="flex flex-col md:flex-row md:flex-wrap md:justify-start md:gap-x-40 md:gap-y-20">
                         {skillData.map((skill, i: number) => {
@@ -39,11 +39,10 @@ export const Skills = () => {
                                         {skill.heading}
                                     </h4>
                                     <p className="mb-6">{skill.description}</p>
-                                    <h5 className="text-portfolio-blue mb-2"></h5>
                                     {skill.skill.map((e, j: number) => (
                                         <div key={`${i}-${j}`}>
                                             {/* key consists of "i-j", to avoid collisions with parent keys */}
-                                            <h5 className="mb-1">
+                                            <h5 className="text-portfolio-blue mb-2">
                                                 {e.skillHeading}
                                             </h5>
                                             <p className="mb-6">
