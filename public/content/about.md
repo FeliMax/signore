@@ -1,5 +1,9 @@
 #### Who am I
-Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
+
+I am a freelance web developer with 7 years of experience in HTML, CSS and Javascript. I studied computer science at university and then went on to become a software engineer. I built my first website when I was 12. Nowadays I code mostly TypeScript. I also have experience with PHP, C++ and Python.
+
+I am always looking to improve my knowledge and skills. I believe that the only way to become a better developer is by being immersed in the industry and constantly learning new things.
 
 #### My passions
-Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
+
+My passions are music, technology and photography. I like listening to music while coding, but when I’m working on a big project I usually prefer silence so that I can focus better on my work.
