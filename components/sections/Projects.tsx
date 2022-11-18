@@ -5,6 +5,7 @@ import { Icon, IconProps } from '../Icon';
 export interface ProjectContent {
     name: string;
     description: string;
+    image: string;
     year: number;
     type: string;
     references: IconProps[];
