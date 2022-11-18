@@ -1,7 +1,23 @@
 {
-    "title": "Hello, I'm Sepp",
+    "title": "Hello, I'm Signore",
     "subtitle": "Welcome to my website",
-    "imageUrl": "./images/avatar.svg",
-    "iconList": [{}],
+    "imageUrl": "./images/avatar.png",
+    "iconList": [
+        {
+            "iconName": "fab fa-github",
+            "url": "https://github.com",
+            "tooltip": "Github"
+        },
+        {
+            "iconName": "fab fa-linkedin",
+            "url": "https://linkedin.com",
+            "tooltip": "Linkedin"
+        },
+        {
+            "iconName": "fab fa-gitlab",
+            "url": "https://gitlab.com",
+            "tooltip": "Gitlab"
+        }
+    ],
     "tags": ["#nextjs", "#react"]
 }

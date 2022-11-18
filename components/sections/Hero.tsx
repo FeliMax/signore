@@ -2,7 +2,6 @@ import ExportedImage from 'next-image-export-optimizer';
 import content from '../../public/content/hero.json';
 import { IconList } from '../IconList';
 import { IconProps } from '../Icon';
-import { icons } from './Footer';
 
 interface HeroContent {
     title: string;
@@ -23,7 +22,7 @@ export const Hero = () => {
                 </h1>
                 <h5 className="mb-8 text-center">{heroContent.subtitle}</h5>
                 {heroContent.imageUrl !== undefined && (
-                    <div className="min-w-auto relative h-64 w-64">
+                    <div className="min-w-auto relative h-64 w-64 overflow-clip rounded-full">
                         <ExportedImage
                             src={heroContent.imageUrl}
                             alt="Profile"
@@ -34,9 +33,9 @@ export const Hero = () => {
                     </div>
                 )}
                 <IconList
-                    icons={icons}
-                    iconClassName="h-12 w-12"
-                    className="my-12 gap-10"
+                    icons={heroContent.iconList}
+                    className="my-12 gap-10 text-primary"
+                    iconClassName="h-12 w-12 hover:scale-105 duration-300 hover:text-secondary"
                 />
                 <h4>{heroContent.tags.join(' ')}</h4>
             </div>
