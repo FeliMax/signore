@@ -1,0 +1,20 @@
+{
+    "iconList": [
+        {
+            "iconName": "fab fa-github",
+            "url": "https://github.com",
+            "tooltip": "Github"
+        },
+        {
+            "iconName": "fab fa-linkedin",
+            "url": "https://linkedin.com",
+            "tooltip": "Linkedin"
+        },
+        {
+            "iconName": "fab fa-gitlab",
+            "url": "https://gitlab.com",
+            "tooltip": "Gitlab"
+        }
+    ],
+    "copyrightNotice": "2022 · Created Maximilian Stelzl & Felix Wielander"
+}
