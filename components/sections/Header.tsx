@@ -27,16 +27,16 @@ export const Header = () => {
 
     return (
         <header className="fixed z-20 h-fit w-full bg-white px-2 shadow-md">
-            <nav className=" container flex items-center justify-between gap-12 text-gray-500">
+            <nav className="container flex items-center justify-between gap-12 text-gray-500">
                 <SmoothScrollLink to="/" className="py-2 hover:cursor-pointer">
                     <Logo />
                 </SmoothScrollLink>
                 <ul
                     className={
-                        'font-bold md:flex md:flex-row ' +
+                        ' font-bold md:flex md:flex-row ' +
                         (open
-                            ? 'absolute inset-0 top-full flex h-screen flex-col items-start gap-8 bg-white px-8 pt-12'
-                            : 'hidden font-bold md:gap-12')
+                            ? 'opacity-1 absolute inset-0 top-full flex h-screen max-h-[100vh] flex-col items-start gap-8 overflow-hidden bg-white bg-gray-200 px-8 pt-12 duration-700 ease-in-out'
+                            : 'max-h-0 overflow-hidden font-bold md:gap-12 md:overflow-visible')
                     }
                 >
                     {headerContent.items.map((item, index: number) => {
