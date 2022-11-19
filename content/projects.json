@@ -1,40 +1,48 @@
 [
     {
-        "name": "This Webpage",
-        "description": "This webpage has been built using nextjs and react.",
+        "name": "signore Template",
+        "description": "This webpage has been built using nextjs and react. It serves as a template that can by used by anyone.",
+        "image": "./favicon.ico",
         "year": 2022,
-        "type": "Webpage",
+        "type": "Portfolio Template",
         "references": [
             {
                 "iconName": "fab fa-github",
-                "url": "https://github.com/Maxwell929/signore",
+                "url": "https://github.com/FeliMax/signore",
                 "tooltip": "Show on Github"
             },
             {
-                "iconName": "fa-brands fa-github",
-                "url": "https://github.com/Maxwell929/signore",
+                "iconName": "fa-solid fa-globe",
+                "url": "https://FeliMax.github.io/signore",
                 "tooltip": "Show on Github"
             }
         ]
     },
     {
-        "name": "Project XYZ",
-        "description": "This is the description of projeon  projct XY is the description  s the description  project XY is the description of project XYZ.",
-        "year": 2022,
-        "type": "Flutter Project",
+        "name": "DressTastic",
+        "description": "A very special mobile app written in Flutter for an online shop selling clothes for women. Designed with the Material Design 3.",
+        "image": "./images/dresstastic.png",
+        "year": 2020,
+        "type": "Flutter App",
         "references": [
             {
-                "iconName": "fa-solid fa-globe",
-                "url": "https://example.com",
-                "tooltip": "Show web page"
+                "iconName": "fa-brands fa-android",
+                "url": "https://play.google.com",
+                "tooltip": "Show on Google Play Store"
+            },
+            {
+                "iconName": "fa-brands fa-apple",
+                "url": "https://www.apple.com/store",
+                "tooltip": "Show on App Store"
             }
         ]
     },
     {
-        "name": "Project XYZ",
-        "description": "This is the description of project XYZ.",
-        "year": 2022,
-        "type": "xy",
+        "name": "Paperwhere",
+        "description": "An incredible project for a paper company, building a website that would help them communicate with customers.",
+        "image": "./images/paperwhere.png",
+        "year": 2017,
+        "type": "Webpage",
         "references": [
             {
                 "iconName": "fa-solid fa-globe",

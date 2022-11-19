@@ -1,7 +1,4 @@
 {
-    "title": "Hello, I'm Signore",
-    "subtitle": "Welcome to my website",
-    "imageUrl": "./images/avatar.png",
     "iconList": [
         {
             "iconName": "fab fa-github",
@@ -19,5 +16,5 @@
             "tooltip": "Gitlab"
         }
     ],
-    "tags": ["#nextjs", "#react"]
+    "copyrightNotice": "2022 · Created Maximilian Stelzl & Felix Wielander"
 }
