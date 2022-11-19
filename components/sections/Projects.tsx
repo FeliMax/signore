@@ -5,6 +5,7 @@ import { Icon, IconProps } from '../Icon';
 export interface ProjectContent {
     name: string;
     description: string;
+    image: string;
     year: number;
     type: string;
     references: IconProps[];
@@ -22,7 +23,7 @@ export const Projects = () => {
                     />
                     <h2>Projects</h2>
                 </div>
-                <div className="mx-auto flex flex-col items-center gap-8 md:flex-row md:flex-wrap md:items-stretch md:gap-14">
+                <div className="mx-auto flex flex-col items-center justify-center gap-8 md:flex-row md:flex-wrap md:items-stretch md:gap-14">
                     {projects.map((project: ProjectContent, index: number) => (
                         <ProjectCard key={index} {...project} />
                     ))}

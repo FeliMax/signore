@@ -25,10 +25,10 @@ export const AboutMe = () => {
                             {content}
                         </ReactMarkdown>
                     </div>
-                    <div className="relative h-[25rem] w-[25rem] self-center overflow-hidden md:h-[30rem] md:w-[30rem] lg:block">
+                    <div className="relative h-[25rem] w-[25rem] self-center overflow-hidden overflow-clip rounded-full md:h-[30rem] md:w-[30rem] lg:block">
                         <ExportedImage
                             className="relative z-10 object-cover delay-100 duration-300 md:hover:scale-110 md:hover:transition"
-                            src="./images/me.jpeg"
+                            src="./images/avatar.png"
                             alt="Profile"
                             fill={true}
                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

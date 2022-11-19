@@ -2,34 +2,34 @@
     {
         "iconName": "terminal",
         "heading": "Programming",
-        "description": "I like to code things from scratch, and enjoy bringing ideas to life in the browser.,",
+        "description": "I like to learn one new programming language each year.,",
         "skill": [
             {
-                "skillHeading": "Languages I speak:",
-                "skillDescription": "HTML, CSS, Sass, Javascript/Typescript, Python, C++, Dart"
+                "skillHeading": "Programming languages",
+                "skillDescription": "HTML, CSS, Javascript/Typescript, Python, C++, Dart"
             },
             {
                 "skillHeading": "Tech Tools",
-                "skillDescription": "HTML, CSS, Sass, Javascript/Typescript, Python, C++, Dart"
+                "skillDescription": "Microsoft Office"
             },
             {
                 "skillHeading": "Design Tools",
-                "skillDescription": "HTML, CSS, Sass, Javascript/Typescript, Python, C++, Dart"
+                "skillDescription": "Figma, Photoshop, Blender"
             }
         ]
     },
     {
         "iconName": "book",
         "heading": "Interrests",
-        "description": "I like to code things from scratch, and enjoy bringing ideas to life in the browser.,",
+        "description": "Besides coding, I also have other hobbies, which I spend time on in my free time.",
         "skill": [
             {
                 "skillHeading": "Sports",
-                "skillDescription": "HTML, CSS, Sass, Javascript/Typescript, Python, C++, Dart and a lot of other shit"
+                "skillDescription": "Water polo, golf, windsurfing, kitesurfing"
             },
             {
-                "skillHeading": "IT-Topics",
-                "skillDescription": "HTML, CSS, Sass, Javascript/Typescript, Python, C++, Dart"
+                "skillHeading": "Other interests",
+                "skillDescription": "Crypto trading, partying, car racing, Formula 1"
             }
         ]
     }
