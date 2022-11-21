@@ -15,7 +15,7 @@ export const Hero = () => {
     const heroContent = content as HeroContent;
 
     return (
-        <section id="/" className=" flex h-[100vh] flex-col justify-start">
+        <section id="/" className=" flex min-h-[100vh] flex-col justify-start">
             <div className="container flex flex-col items-center pt-24 text-primary md:pt-44 ">
                 <h1 className="mb-4 text-center font-bold">
                     {heroContent.title}
@@ -37,7 +37,7 @@ export const Hero = () => {
                     className="my-12 gap-10 text-primary"
                     iconClassName="h-12 w-12 hover:scale-105 duration-300 hover:text-secondary"
                 />
-                <h4>{heroContent.tags.join(' ')}</h4>
+                <h4 className="pb-8">{heroContent.tags.join(' ')}</h4>
             </div>
         </section>
     );
