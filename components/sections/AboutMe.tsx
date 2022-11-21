@@ -25,7 +25,7 @@ export const AboutMe = () => {
                             {content}
                         </ReactMarkdown>
                     </div>
-                    <div className="relative h-[25rem] w-[25rem] self-center overflow-hidden overflow-clip rounded-full md:h-[30rem] md:w-[30rem] lg:block">
+                    <div className="relative h-80 w-80 self-center overflow-hidden overflow-clip rounded-full md:h-[30rem] md:w-[30rem] lg:block">
                         <ExportedImage
                             className="relative z-10 object-cover delay-100 duration-300 md:hover:scale-110 md:hover:transition"
                             src="./images/avatar.png"
