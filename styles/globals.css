@@ -73,21 +73,21 @@
 }
 
 /* TODO: move these styles into component-scoped css file */
-.right-to-left-enter {
+.revolver-animation-enter {
     opacity: 0;
     transform: translateY(-100%);
 }
-.right-to-left-enter-active {
+.revolver-animation-enter-active {
     opacity: 1;
     transform: translateY(0);
     transition: all 300ms ease-out;
 }
 
-.right-to-left-exit {
+.revolver-animation-exit {
     opacity: 1;
     transform: translateY(0);
 }
-.right-to-left-exit-active {
+.revolver-animation-exit-active {
     opacity: 0;
     transform: translateY(100%);
     transition: all 300ms ease-out;

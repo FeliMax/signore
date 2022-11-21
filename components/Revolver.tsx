@@ -21,7 +21,7 @@ export const Revolver: FC<Props> = ({ wordList }: Props) => {
         <SwitchTransition>
             <CSSTransition
                 nodeRef={ref}
-                classNames="right-to-left"
+                classNames="revolver-animation"
                 timeout={{ enter: 300, exit: 300 }}
                 key={wordList[index]}
             >
