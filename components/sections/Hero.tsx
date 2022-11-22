@@ -2,6 +2,7 @@ import ExportedImage from 'next-image-export-optimizer';
 import content from '../../public/content/hero.json';
 import { IconList } from '../IconList';
 import { IconProps } from '../Icon';
+import { Revolver } from '../Revolver';
 
 interface HeroContent {
     title: string;
@@ -37,7 +38,7 @@ export const Hero = () => {
                     className="my-12 gap-10 text-primary"
                     iconClassName="h-12 w-12 hover:scale-105 duration-300 hover:text-secondary"
                 />
-                <h4 className="pb-8">{heroContent.tags.join(' ')}</h4>
+                <Revolver wordList={heroContent.tags} />
             </div>
         </section>
     );

@@ -71,3 +71,24 @@
         @apply !max-w-large mx-auto px-4;
     }
 }
+
+/* TODO: move these styles into component-scoped css file */
+.revolver-animation-enter {
+    opacity: 0;
+    transform: translateY(-100%);
+}
+.revolver-animation-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 300ms ease-out;
+}
+
+.revolver-animation-exit {
+    opacity: 1;
+    transform: translateY(0);
+}
+.revolver-animation-exit-active {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 300ms ease-out;
+}
